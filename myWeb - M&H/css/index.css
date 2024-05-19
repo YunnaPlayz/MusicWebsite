@@ -1,0 +1,178 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+    width: 1400px;
+    height: 590px;
+}
+
+
+
+header,nav,section{
+    font-family: broadway;
+    text-align: center; 
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+
+nav{
+    margin-top: 30px;
+   display: flex;
+   justify-content: flex-end;
+
+
+
+}
+
+
+footer{
+    width: 50%;
+    clear: left;
+    text-align: center;
+    margin-left: -400px;
+    font-size: 8px;
+
+}
+
+#logoA{
+    width: 100px;
+    margin: 20px;
+    float: left;
+    margin-top: -10px;
+    
+}
+
+@media only screen and (max-width:800px){section {
+    width: 80%;
+}
+    aside{
+        width: 100%;
+        
+    }
+    
+}
+@media only screen and (max-width:500px){nav, section, aside {
+    width: 100%;
+    }
+}
+
+a{
+    width: 150px;
+    background-color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white; 
+    height: 30px;
+}
+
+b{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+
+a:active{
+    box-shadow: 5px 5px 10px black;
+    text-transform: 10px 10px;
+}
+
+h1{
+    margin-left: 925px;
+    margin-top: 340px;
+    color: white;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    font-family: broadway;
+}
+
+h1 a{
+    border: 2px solid white;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+h6{
+    margin-top: 53px;
+    margin-left:610px;
+    height: 30px;
+    width: 450px;
+    font-size: 20px;
+    background-color: white;
+    font-family: broadway;
+}
+#SMedia1{
+    float: left;
+
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+    transition: 0.8s;
+    transform: translate(5px);
+    padding: 0px 0px 0px 0px;
+ width: 117px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: -76px;
+        height: 29.5px;
+}
+#SMedia2{
+  
+ float: left;
+    background-color: none;
+    transform: translate(5px);
+    padding: 0px 0px 0px 0px;
+ width: 0px;
+    margin-left: 80px;
+    margin-right: 0px;
+    margin-top: -76px;
+
+}
+#SMedia3{
+  
+ float: left;
+    float: left;
+    background-color: none;
+    transform: translate(5px);
+    padding: 0px 0px 0px 0px;
+ width: 0px;
+    margin-left: 125px;
+    margin-right: 0px;
+    margin-top: -76px;
+    
+}
+a:hover {
+    text-shadow: 2px 2px 2px black;
+    background-color: darkgrey;
+    transition: 0.5s;
+    transform: translate(3px);
+    padding-left: 3px;
+}
+
+#SMedia1 :hover {
+
+    background-color: darkgrey;
+    transition: 0.5s;
+    transform: translate(2px);
+
+}
+#SMedia2 :hover {
+
+    background-color: darkgrey;
+    transition: 0.5s;
+    transform: translate(0.8px);
+
+}
+#SMedia3 :hover {
+
+    background-color: darkgrey;
+    transition: 0.5s;
+    transform: translate(2px);
+
+}
